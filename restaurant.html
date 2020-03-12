@@ -301,6 +301,90 @@
       </div>
     </div>
   </section>
+  <section class="cointainer-fluid py-5 bg-light text-md-dark" style="position:relative">
+    <div class="container ">
+      <div class="row">
+        <div class="col-sm-6" style="width:100%">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.689276285842!2d121.51119395080808!3d25.044616883888693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90cba109bcf%3A0xf88ba8320f8778ee!2z5Ye65aWH5pW05ZCI5buj5ZGK6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1583121538339!5m2!1szh-TW!2stw"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="col-sm-6">
+          <form class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="exampleInputname">姓名*</label>
+              <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp"
+                placeholder="請輸入姓名" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputphone">請輸入電話號碼*</label>
+              <input type="text" class="form-control" id="exampleInputphone" placeholder="請輸入電話號碼" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">請輸入 Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <option selected>請輸入人數*</option>
+              <select class="custom-select" required>
+                <option value="">請輸入人數</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" required>
+              <label class="custom-control-label" for="customRadio1">需要素食</label>
+              <div class="valid-feedback">
+              </div>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" required>
+              <label class="custom-control-label" for="customRadio2">不需要素食</label>
+              <div class="valid-feedback">
+              </div>
+            </div>
+            <div class="btn01">
+              <button type="button" class="btn btn-secondary">取消</button>
+              <button type="submit" class="btn btn-primary">送出</button>
+            </div>
+        </div>
+        </form>
+      </div>
+
+      <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+          'use strict';
+          window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+              form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+    </div>
+    </div>
+    </div>
+  </section>
   <section class="container-fluid">
     <div class="row">
         <div class="col-md-6 p-4 bg-cover-1 text-white" style="background-image:url(https://images.unsplash.com/photo-1484834762280-66a18a5a8f0b?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);">
