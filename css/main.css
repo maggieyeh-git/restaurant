@@ -60,3 +60,11 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+.btn01{
+    text-align: right ;
+    margin-top: 20px;
+  }
+  .text{
+    margin: 50px 0px;
+  }
