@@ -44,7 +44,7 @@
 
 
 
-@media (min-width: 768px) {
+@media (min-width:576px) {
     .text-md-dark {
         color: #333;
     }
@@ -68,15 +68,6 @@
     margin: 50px 0px;
   }
 
-<<<<<<< HEAD
-.btn01{
-    text-align: right ;
-    margin-top: 20px;
-  }
-  .text{
-    margin: 50px 0px;
-  }
-=======
 .bg{
     background-color: rgba(0, 0, 0, .35);
 
@@ -88,4 +79,3 @@
 .btn-outline-warning:hover{
     color: #fff;
 }
->>>>>>> e940531fbde3f2e3ba3feedb7935c01d1beebc55
